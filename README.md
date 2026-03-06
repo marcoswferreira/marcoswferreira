@@ -1,14 +1,3 @@
-# Marcos W. Ferreira
-
-### Software Developer | Backend & Cloud Specialist
-
-C# | .NET | Java | Spring Boot | React | Azure | SQL & NoSQL
-
-<https://marcoswferreira.vercel.app>
-
-[![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=ffffff)](https://github.com/marcoswferreira)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=ffffff)](https://www.linkedin.com/in/marcoswferreira)
-
 ## About Me
 
 Senior Software Engineer with 4+ years of experience designing and delivering high-impact backend systems in large-scale, mission-critical environments.

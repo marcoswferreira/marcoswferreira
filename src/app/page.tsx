@@ -58,7 +58,7 @@ export default function HomePage() {
         Senior Software Engineer with 4+ years of experience designing and delivering high-impact backend systems in large-scale, mission-critical environments.
       </p>
       <p className="text-sm">
-        Specialized in scalable and resilient distributed systems, with strong background in the financial sector, including payment solutions (PayIn/Payout), Pix, banking integrations, QR Code generation and processing, and high-concurrency, low-latency APIs. Most recently embedded at Western Union, one of the world's largest financial services companies, where I developed high-throughput APIs and async workers processing millions of daily requests, and designed microservices for high-availability enterprise applications.
+        Specialized in scalable and resilient distributed systems, with strong background in the financial sector, including payment solutions (PayIn/Payout), Pix, banking integrations, QR Code generation and processing, and high-concurrency, low-latency APIs. Most recently embedded at Western Union, one of the world&apos;s largest financial services companies, where I developed high-throughput APIs and async workers processing millions of daily requests, and designed microservices for high-availability enterprise applications.
       </p>
 
       <div className="text-sm">
