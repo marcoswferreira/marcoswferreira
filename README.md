@@ -11,14 +11,25 @@ C# | .NET | Java | Spring Boot | React | Azure | SQL & NoSQL
 
 ## About Me
 
-Hello and welcome!
+Senior Software Engineer with 4+ years of experience designing and delivering high-impact backend systems in large-scale, mission-critical environments.
 
-My name is Marcos, a passionate software developer with over 5 years of experience designing and building robust, scalable applications for large-scale, critical environments.
+Specialized in scalable and resilient distributed systems, with strong background in the financial sector, including payment solutions (PayIn/Payout), Pix, banking integrations, QR Code generation and processing, and high-concurrency, low-latency APIs. Most recently embedded at Western Union, one of the world's largest financial services companies, where I developed high-throughput APIs and async workers processing millions of daily requests, and designed microservices for high-availability enterprise applications.
 
-My expertise is centered on backend development with the C#/.NET and Java/Spring Boot ecosystems. This is complemented by a solid foundation in frontend technologies, where I use React, JavaScript, and TypeScript to create seamless user experiences.
+### What I bring:
+- **Backend expertise:** C#, ASP.NET Core, Java, Spring Boot
+- **Frontend fluency:** React, Angular, TypeScript
+- **Data layer:** SQL Server, OracleDB, PostgreSQL, MongoDB, Redis
+- **Cloud:** Azure (AZ-900, DP-900, SC-900); experienced with cloud-native architectures
+- **Testing:** XUnit, JUnit, test-driven development practices
 
-I am committed to delivering high-quality code through rigorous unit testing (XUnit) and am proficient in managing a wide array of databases, from SQL Server and MySQL to NoSQL solutions like Redis and Elasticsearch. Furthermore, I have certified expertise in cloud computing with Microsoft Azure (AZ-900, DP-900, SC-900).
+### Key highlights:
+- High-performance payment service development
+- QR Code platforms for instant payments
+- Integrations with Matera and core banking systems
+- Legacy system modernization
+- Performance optimization and production troubleshooting
+- Domain modeling for financial systems
 
-I thrive on challenges that require strategic thinking and collaboration. As a firm believer in continuous learning, I am always seeking opportunities to contribute my skills to impactful projects.
+Passionate about software engineering, architecture, and solving complex problems at scale. I also invest in technical mentorship and knowledge sharing within engineering teams.
 
-Thank you for stopping by, and I look forward to connecting with you!
+Open to senior engineering roles at companies building high-impact products.

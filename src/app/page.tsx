@@ -5,7 +5,7 @@ import {
 } from "@icons-pack/react-simple-icons";
 import { ArrowUpRight, Copy, Download, Send } from "lucide-react";
 import Link from "next/link";
-import { ReactNode } from "react";
+import { ReactNode, FC } from "react";
 
 interface Link {
   name: string;
@@ -29,7 +29,7 @@ const externalLinks: Link[] = [
   },
 ];
 
-const ExternalLink = (link: Link) => {
+const ExternalLink: FC<Link> = (link) => {
   return (
     <a
       key={link.description}
@@ -54,10 +54,45 @@ const ExternalLink = (link: Link) => {
 export default function HomePage() {
   return (
     <div className="flex flex-col gap-6">
-      <p className="text-sm">Hi there. For me, software development is all about bringing ideas to life.</p>
-      <p className="text-sm">Over the past five years, I have enjoyed doing just that, working on large-scale projects with a focus on backend tech and cloud computing with Azure.</p>
-      <p className="text-sm">I believe in the power of sharing knowledge and am always excited to connect.</p>
-      <div className="divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
+      <p className="text-sm">
+        Senior Software Engineer with 4+ years of experience designing and delivering high-impact backend systems in large-scale, mission-critical environments.
+      </p>
+      <p className="text-sm">
+        Specialized in scalable and resilient distributed systems, with strong background in the financial sector, including payment solutions (PayIn/Payout), Pix, banking integrations, QR Code generation and processing, and high-concurrency, low-latency APIs. Most recently embedded at Western Union, one of the world's largest financial services companies, where I developed high-throughput APIs and async workers processing millions of daily requests, and designed microservices for high-availability enterprise applications.
+      </p>
+
+      <div className="text-sm">
+        <p className="mb-2 font-semibold">What I bring:</p>
+        <ul className="list-inside list-disc space-y-1 text-zinc-600 dark:text-zinc-400">
+          <li>Backend expertise: C#, ASP.NET Core, Java, Spring Boot</li>
+          <li>Frontend fluency: React, Angular, TypeScript</li>
+          <li>Data layer: SQL Server, OracleDB, PostgreSQL, MongoDB, Redis</li>
+          <li>Cloud: Azure (AZ-900, DP-900, SC-900); experienced with cloud-native architectures</li>
+          <li>Testing: XUnit, JUnit, test-driven development practices</li>
+        </ul>
+      </div>
+
+      <div className="text-sm">
+        <p className="mb-2 font-semibold">Key highlights:</p>
+        <ul className="list-inside list-disc space-y-1 text-zinc-600 dark:text-zinc-400">
+          <li>High-performance payment service development</li>
+          <li>QR Code platforms for instant payments</li>
+          <li>Integrations with Matera and core banking systems</li>
+          <li>Legacy system modernization</li>
+          <li>Performance optimization and production troubleshooting</li>
+          <li>Domain modeling for financial systems</li>
+        </ul>
+      </div>
+
+      <p className="text-sm">
+        Passionate about software engineering, architecture, and solving complex problems at scale. I also invest in technical mentorship and knowledge sharing within engineering teams.
+      </p>
+
+      <p className="text-sm">
+        Open to senior engineering roles at companies building high-impact products.
+      </p>
+
+      <div className="mt-4 divide-y divide-zinc-400 overflow-hidden rounded ring-1 ring-zinc-400 dark:divide-zinc-500 dark:ring-zinc-500">
         {externalLinks.map((link: Link) => (
           <ExternalLink key={link.url} {...link} />
         ))}
@@ -79,16 +114,6 @@ export default function HomePage() {
             <div className="size-2 animate-pulse rounded-full bg-green-500 dark:bg-emerald-500" />
             Online
           </span>
-        </div>
-        <div className="flex flex-col gap-2">
-          <a
-            href="/marcos-ferreira-cv-pt.pdf"
-            download="marcos-ferreira-cv-pt.pdf"
-            className="flex flex-row items-center justify-center gap-3 rounded bg-sky-300 p-4 text-sky-800 ring-1 ring-sky-500 transition-all sm:hover:bg-sky-400 dark:bg-inherit dark:text-sky-500 dark:ring-sky-500 sm:sm:dark:hover:bg-zinc-800"
-          >
-            <span className="text-nowrap">Download my CV</span>
-            <Download strokeWidth={1.4} className="size-5 max-sm:hidden" />
-          </a>
         </div>
       </div>
     </div>
