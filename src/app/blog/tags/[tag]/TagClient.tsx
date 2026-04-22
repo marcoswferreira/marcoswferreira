@@ -4,7 +4,7 @@ import Link from "next/link";
 import moment from "moment";
 import { ChevronLeft } from "lucide-react";
 import { notFound } from "next/navigation";
-import { useLanguage } from "../../../components/LanguageContext";
+import { useLanguage } from "../../../../components/LanguageContext";
 import { Post } from "../../../../lib/types";
 
 interface TagClientProps {
