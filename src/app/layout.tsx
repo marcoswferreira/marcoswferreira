@@ -18,6 +18,8 @@ const karla = Karla({
 
 const Header = dynamic(() => import("./Header"), { ssr: false });
 
+import { LanguageProvider } from "../components/LanguageContext";
+
 export default function RootLayout({
   children,
 }: {
@@ -26,31 +28,33 @@ export default function RootLayout({
   return (
     <html lang="en" className="min-h-screen">
       <body className={`${karla.className} min-h-full px-6`}>
-        <Analytics />
-        <Script id="theme-toggle" strategy="afterInteractive">
-          {`document.documentElement.classList.toggle("dark", localStorage.theme ===
-        "dark" || (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches))`}
-        </Script>
-        <Header />
-        <main className="mx-auto max-w-prose pb-4">
-          {children}
-          <ScrollToTop />
-        </main>
-        <footer className="mx-auto flex max-w-prose flex-col max-sm:items-start items-center gap-2 py-6 text-sm text-zinc-500 dark:text-zinc-400">
-          <div className="flex items-center gap-4">
-            <a
-              className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
-              href="https://github.com/marcoswferreira/blog"
-              target="_blank"
-            >
-              Code
-            </a>
-          </div>
-          <blockquote className="text-zinc-800 dark:text-zinc-300">
-            Smile, you&apos;re alive :)
-          </blockquote>
-        </footer>
+        <LanguageProvider>
+          <Analytics />
+          <Script id="theme-toggle" strategy="afterInteractive">
+            {`document.documentElement.classList.toggle("dark", localStorage.theme ===
+          "dark" || (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches))`}
+          </Script>
+          <Header />
+          <main className="mx-auto max-w-5xl pb-4 px-6 sm:px-8">
+            {children}
+            <ScrollToTop />
+          </main>
+          <footer className="mx-auto flex max-w-prose flex-col max-sm:items-start items-center gap-2 py-6 text-sm text-zinc-500 dark:text-zinc-400">
+            <div className="flex items-center gap-4">
+              <a
+                className="decoration-zinc-500 underline-offset-4 transition-all sm:hover:underline dark:decoration-zinc-400"
+                href="https://github.com/marcoswferreira/blog"
+                target="_blank"
+              >
+                Code
+              </a>
+            </div>
+            <blockquote className="text-zinc-800 dark:text-zinc-300">
+              Smile, you&apos;re alive :)
+            </blockquote>
+          </footer>
+        </LanguageProvider>
       </body>
     </html>
   );
