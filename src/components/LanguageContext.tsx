@@ -43,6 +43,21 @@ const translations = {
       summary_p3: "Recently embedded at Western Union, one of the world's largest financial services companies, where I developed high-throughput APIs and async workers processing millions of daily requests, and designed microservices for high-availability enterprise applications.",
       delivery_title: "What I Deliver",
       highlights_title: "Career Highlights",
+      delivery_items: [
+        "Backend Expertise: C#, ASP.NET Core, Java, Spring Boot",
+        "Frontend Fluency: React, Angular, TypeScript",
+        "Data Layer: SQL Server, OracleDB, PostgreSQL, MongoDB, Redis",
+        "Cloud: Azure (AZ-900, DP-900, SC-900)",
+        "Testing: XUnit, JUnit, TDD Practices"
+      ],
+      highlights_items: [
+        "Development of high-performance payment services",
+        "QR Code platforms for instant payments",
+        "Integrations with Matera and core banking systems",
+        "Legacy system modernization",
+        "Performance optimization and production troubleshooting",
+        "Domain modeling for financial systems"
+      ],
       passion: "Passionate about software engineering, architecture, and solving complex problems at scale. I also invest in technical mentorship and knowledge sharing within engineering teams.",
       open: "Currently open to senior engineering roles at companies building high-impact products.",
       cta: "Let's talk?",
@@ -93,6 +108,21 @@ const translations = {
       summary_p3: "Recentemente, atuei na Western Union, uma das maiores empresas de serviços financeiros do mundo, onde desenvolvi APIs de alto rendimento e workers assíncronos que processam milhões de requisições diárias, além de projetar microsserviços para aplicações corporativas de alta disponibilidade.",
       delivery_title: "O que eu entrego",
       highlights_title: "Destaques de Carreira",
+      delivery_items: [
+        "Expertise Backend: C#, ASP.NET Core, Java, Spring Boot",
+        "Fluência Frontend: React, Angular, TypeScript",
+        "Camada de Dados: SQL Server, OracleDB, PostgreSQL, MongoDB, Redis",
+        "Cloud: Azure (AZ-900, DP-900, SC-900)",
+        "Testes: XUnit, JUnit, Práticas de TDD"
+      ],
+      highlights_items: [
+        "Desenvolvimento de serviços de pagamento de alta performance",
+        "Plataformas de QR Code para pagamentos instantâneos",
+        "Integrações com Matera e sistemas core banking",
+        "Modernização de sistemas legados",
+        "Otimização de performance e troubleshooting em produção",
+        "Modelagem de domínio para sistemas financeiros"
+      ],
       passion: "Apaixonado por engenharia de software, arquitetura e resolução de problemas complexos em escala. Também invisto em mentoria técnica e compartilhamento de conhecimento dentro das equipes de engenharia.",
       open: "Atualmente aberto a funções de engenharia sênior em empresas que constroem produtos de alto impacto.",
       cta: "Vamos conversar?",

@@ -26,8 +26,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="min-h-screen">
-      <body className={`${karla.className} min-h-full px-6`}>
+    <html lang="en" className="scroll-smooth">
+      <body
+        className={`${karla.className} min-h-screen bg-zinc-50 px-6 text-zinc-800 dark:bg-zinc-900 dark:text-zinc-200`}
+      >
         <LanguageProvider>
           <Analytics />
           <Script id="theme-toggle" strategy="afterInteractive">

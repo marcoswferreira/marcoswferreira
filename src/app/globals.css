@@ -3,20 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --sh-class: #2563eb; /* blue-600 */
-  --sh-identifier: #8b5cf6; /* violet-600 */
-  --sh-sign: #a1a1aa; /* slate-400 */
-  --sh-property: #0d9488; /* teal-600 */
-  --sh-entity: #10b981; /* emerald-500 */
-  --sh-jsxliterals: #c026d3; /* fuchsia-600 */
-  --sh-string: #0891b2; /* cyan-600 */
-  --sh-keyword: #ef4444; /* red-500 */
-  --sh-comment: #64748b; /* slate-500 */
+  --sh-class: #4f46e5; /* indigo-600 */
+  --sh-identifier: #27272a; /* zinc-800 */
+  --sh-sign: #71717a; /* zinc-500 */
+  --sh-property: #9333ea; /* purple-600 */
+  --sh-entity: #2563eb; /* blue-600 */
+  --sh-jsxliterals: #059669; /* emerald-600 */
+  --sh-string: #059669; /* emerald-600 */
+  --sh-keyword: #0284c7; /* sky-600 */
+  --sh-comment: #a1a1aa; /* zinc-400 */
+}
+
+.dark {
+  --sh-class: #818cf8; /* indigo-400 */
+  --sh-identifier: #e4e4e7; /* zinc-200 */
+  --sh-sign: #a1a1aa; /* zinc-400 */
+  --sh-property: #c084fc; /* purple-400 */
+  --sh-entity: #60a5fa; /* blue-400 */
+  --sh-jsxliterals: #34d399; /* emerald-400 */
+  --sh-string: #34d399; /* emerald-400 */
+  --sh-keyword: #38bdf8; /* sky-400 */
+  --sh-comment: #71717a; /* zinc-500 */
 }
 
 @layer base {
-  html,
-  body {
-    @apply min-h-screen bg-zinc-50 text-zinc-800 dark:bg-zinc-900 dark:text-zinc-200;
-  }
+  /* Colors and min-height are now handled in layout.tsx body className */
 }

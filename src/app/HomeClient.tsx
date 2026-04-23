@@ -88,7 +88,7 @@ export default function HomeClient({ ptPosts, enPosts }: HomeClientProps) {
             <Link
               key={post.slug}
               href={`/blog/${post.slug}`}
-              className="group p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-950 transition-all hover:shadow-xl hover:shadow-sky-500/5 hover:-translate-y-1"
+              className="group p-5 rounded-2xl border border-zinc-200 dark:border-zinc-800/50 bg-white dark:bg-zinc-800/30 transition-all hover:shadow-xl hover:shadow-sky-500/10 hover:-translate-y-1 dark:hover:border-zinc-700/50 dark:hover:bg-zinc-800/50"
             >
               <div className="flex flex-col gap-3">
                 <span className="text-[10px] font-bold text-sky-500 uppercase tracking-widest">

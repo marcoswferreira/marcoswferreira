@@ -44,11 +44,9 @@ export default function AboutPage() {
             <h4>{t("about.delivery_title")}</h4>
           </div>
           <ul className="list-inside list-disc space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-            <li>Expertise Backend: C#, ASP.NET Core, Java, Spring Boot</li>
-            <li>Fluência Frontend: React, Angular, TypeScript</li>
-            <li>Camada de Dados: SQL Server, OracleDB, PostgreSQL, MongoDB, Redis</li>
-            <li>Cloud: Azure (AZ-900, DP-900, SC-900)</li>
-            <li>Testes: XUnit, JUnit, Práticas de TDD</li>
+            {(t("about.delivery_items") as string[]).map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
           </ul>
         </div>
 
@@ -58,12 +56,9 @@ export default function AboutPage() {
             <h4>{t("about.highlights_title")}</h4>
           </div>
           <ul className="list-inside list-disc space-y-2 text-sm text-zinc-600 dark:text-zinc-400">
-            <li>Desenvolvimento de serviços de pagamento de alta performance</li>
-            <li>Plataformas de QR Code para pagamentos instantâneos</li>
-            <li>Integrações com Matera e sistemas core banking</li>
-            <li>Modernização de sistemas legados</li>
-            <li>Otimização de performance e troubleshooting em produção</li>
-            <li>Modelagem de domínio para sistemas financeiros</li>
+            {(t("about.highlights_items") as string[]).map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
           </ul>
         </div>
       </section>
