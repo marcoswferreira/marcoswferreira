@@ -1,10 +1,10 @@
 <div align="center">
 
 # Marcos W. Ferreira
+
 ### Senior Backend & Distributed Systems Engineer
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
-[![Portfolio](https://img.shields.io/badge/Portfolio-self.so-111111?style=flat-square&logo=safari&logoColor=white)](https://www.self.so/marcos-wferreira)
 [![Email](https://img.shields.io/badge/Email-marcosfw7%40outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:marcosfw7@outlook.com)
 [![Location](https://img.shields.io/badge/Location-São%20Paulo%2C%20Brazil-555555?style=flat-square&logo=google-maps&logoColor=white)](https://goo.gl/maps)
 [![3x Azure Certified](https://img.shields.io/badge/Azure%20Certified-AZ--900%20%7C%20DP--900%20%7C%20SC--900-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
@@ -50,18 +50,23 @@ Senior Software Engineer with **6+ years of experience** designing, building, an
 Here are select open-source repositories and blueprints showcasing production-ready architectural patterns, financial domain modeling, and systems engineering:
 
 ### 🏛️ [Clean Architecture Boilerplate (.NET 10)](https://github.com/marcoswferreira/clean-architecture-boilerplate)
+>
 > Production-ready enterprise template for .NET 10 Web APIs. Built on Domain-Driven Design (DDD), CQRS, Event Sourcing, Hexagonal Architecture, and SOLID principles. Designed for high testability and clean domain boundaries.
 
 ### 💳 [Wallet App (Java 21 & Spring Boot 3.3)](https://github.com/marcoswferreira/wallet-app)
+>
 > Production-grade multi-tenant financial transaction engine built with Java 21, Spring Boot 3.3, and PostgreSQL 16. Implements strict consistency, transactional safety, and multi-tenant ledger modeling for payments.
 
 ### 🎰 [High-Throughput Betting Engine](https://github.com/marcoswferreira/betting-engine)
+>
 > Distributed high-performance sports betting engine built with Java 21 and Spring Boot 3.2. Focuses on real-time live odds ingestion, ultra-low latency bet validation, and high-throughput settlement under heavy concurrency.
 
 ### 📬 [SQL Server Service Broker Patterns](https://github.com/marcoswferreira/sql-server-service-broker)
+>
 > Reference implementation and guide for reliable, transactional, and asynchronous message queuing directly within Microsoft SQL Server, enabling decoupled distributed communication without external broker overhead.
 
 ### 🦀 [DualSense Studio & Steam Companion (Rust)](https://github.com/marcoswferreira/dualsense-studio)
+>
 > High-performance systems utilities written in 100% native Rust, demonstrating low-level systems programming, hardware telemetry, driver emulation, and native OS interop.
 
 ---
