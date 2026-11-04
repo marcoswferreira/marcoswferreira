@@ -1,76 +1,82 @@
 <div align="center">
 
-[🇺🇸 English Version](resume.md) • [🇧🇷 Versão em Português](curriculo_pt.md)
+[ 🇺🇸 English Version ](resume.md) • [ 🇧🇷 Versão em Português ](curriculo_pt.md)
 
 </div>
 
 # Marcos W. Ferreira
-
-**Senior Backend Engineer**  
-São Paulo, Brazil • <marcosfw7@outlook.com> • +55 (12) 99183-6842  
-[LinkedIn](https://www.linkedin.com/in/marcoswferreira) • [GitHub](https://github.com/marcoswferreira)
+**Backend Software Engineer | Distributed Systems & Regulated Payments**  
+Tremembé, São Paulo, Brazil • marcosfw7@outlook.com • +55 (12) 99183-6842  
+[LinkedIn](https://www.linkedin.com/in/marcoswferreira) • [GitHub](https://github.com/marcoswferreira) • [Portfolio](https://www.self.so/marcos-wferreira)
 
 ---
 
 ## Professional Summary
-
-Senior Software Engineer with 6+ years of experience architecting, building, and operating high-throughput distributed systems in mission-critical and highly regulated environments. Deep expertise in financial technology (core banking integrations, Pix, PayIn/Payout engines, low-latency transaction processing), asynchronous messaging pipelines, and cloud-native microservices. Proven track record at large-scale enterprises including Western Union, engineering resilient systems processing millions of daily transactions with sub-second latencies. Passionate about Domain-Driven Design (DDD), Event-Driven Architecture, high concurrency, and zero-downtime scalability.
+Backend Software Engineer with 4+ years of professional experience architecting, building, and operating distributed systems and high-throughput financial platforms in mission-critical, regulated environments. Deep expertise in enterprise payment systems (Pix, dynamic Pix QR Codes, PayIn/Payout engines, and core banking integrations with Matera), ensuring transactional consistency under concurrency through idempotency, distributed locks, asynchronous queues, and retry mechanisms. Demonstrated track record across global enterprises and public institutions (Western Union, GFT Technologies, and the Rio de Janeiro State Court of Justice via Basis), slashing database query latency from 8s to 600ms and operational turnaround times by up to 73%. Specialized in C# (.NET Core), Java (Spring Boot), Azure cloud-native architectures, and test automation (TDD, integration, and E2E testing).
 
 ---
 
 ## Technical Skills
 
-- **Languages:** C# (.NET Core / .NET 8+), Java (11 / 17 / 21), Rust, Go, TypeScript, SQL
-- **Frameworks & Runtimes:** ASP.NET Core, Spring Boot 3, Node.js, Angular, React
-- **Architecture & Patterns:** Distributed Systems, Microservices, Domain-Driven Design (DDD), CQRS, Event-Driven Architecture, Hexagonal / Clean Architecture, TDD, Resiliency Patterns (Circuit Breaker, Idempotency, Outbox)
-- **Databases & Caching:** PostgreSQL, Microsoft SQL Server, OracleDB, MongoDB, Redis
-- **Messaging & Streaming:** SQL Server Service Broker, Apache Kafka concepts, RabbitMQ concepts, Asynchronous Workers
-- **Cloud & DevOps:** Microsoft Azure, Docker, Azure DevOps, Jenkins, CloudBees, GitHub Actions, SonarQube, Linux
-- **Testing & Quality:** xUnit, JUnit, Moq, Testcontainers, Automated Quality Gates, TDD
+- **Languages:** C# (.NET Core / .NET 8+), Java (11 / 17 / 21), TypeScript, JavaScript, SQL, Rust, Go
+- **Frameworks & Runtimes:** ASP.NET Core, Spring Boot 3, Node.js, Angular, React, Electron
+- **Payments & Fintech:** Pix, Pix QR Code (Dynamic & Static), PayIn/Payout, Core Banking Integration (Matera), Idempotency, Distributed Locks, Message Queues, Retry Policies
+- **Architecture & Patterns:** Distributed Systems, Microservices, Domain-Driven Design (DDD), CQRS, Clean / Hexagonal Architecture, SOLID, TDD, Design Patterns
+- **Databases & Caching:** Oracle, Microsoft SQL Server, PostgreSQL, MongoDB, Redis
+- **Cloud & DevOps:** Microsoft Azure, Docker, Azure DevOps, Jenkins, CloudBees, SonarQube, Bitbucket, Linux
+- **Testing & Quality:** xUnit, JUnit, Jasmine/Karma, Cypress, Selenium, Robot Framework, Automated Quality Gates
 
 ---
 
 ## Professional Experience
 
 ### **Basis Tecnologia da Informação S.A.** | *Software Engineer II*
+**April 2025 – Present | Rio de Janeiro, Brazil (Remote)**
+- Engineer and maintain mission-critical enterprise applications for the **Rio de Janeiro State Court of Justice (TJRJ)**, including Justice of the Peace governance and internship program management systems using Angular, C# ASP.NET Core, and Oracle.
+- Translate statutory and institutional judicial decrees into validated business domain rules, automated workflows, eligibility checks, and tenure duration validations.
+- Build high-reliability management and operational reports for the Human Resources division, ensuring regulatory compliance and audit readiness for monthly accountability submissions.
+- Guarantee end-to-end software quality across unit, integration, and E2E test suites using **xUnit, Jasmine/Karma, and Cypress**, maintaining **~80% code coverage**.
+- Ensure full compliance with strict contractual quality requirements and architectural documentation via continuous static analysis with **SonarQube** and automated CI/CD quality gates.
 
-**April 2025 – Present | São Paulo, Brazil**
-
-- Spearhead the architecture, development, and modernization of enterprise-scale distributed backend applications using C# ASP.NET Core and Oracle, serving thousands of concurrent users across mission-critical services.
-- Architected and delivered a centralized CI/CD platform on Azure DevOps, enforcing multi-layered automated test suites (xUnit) and SonarQube quality gates, which reduced cross-team deployment turnaround time by 40%.
-- Diagnosed and optimized complex Oracle database queries and indexing strategies, reducing peak transaction query latency by 30% and eliminating deadlocks under high load.
-- Designed and maintained reusable UI design system component libraries in Angular, streamlining frontend integration and cutting squad feature delivery cycle times.
-
-### **Western Union** | *Senior Software Engineer*
-
+### **Western Union** | *Software Engineer II*
 **September 2024 – April 2025 | São Paulo, Brazil**
+- Engineered and maintained high-throughput C#/.NET backend microservices for core financial rails: **Pix, Pix QR Code, PayIn, and Payout**, including direct core banking integration with **Matera**, handling thousands of daily transactions and peak traffic of **~40 req/s**.
+- Enforced strict transactional consistency and zero-loss guarantees under heavy concurrency through **idempotency keys, distributed locks, message queuing, and exponential backoff retry strategies**.
+- Built low-latency RESTful APIs and asynchronous background workers for reliable cross-system synchronization with external third parties, processing thousands of daily events.
+- Architected and automated microservice deployment pipelines with **Jenkins and CloudBees**, **reducing production rollback time from ~30 minutes to ~5 minutes** (83% faster recovery).
+- Developed cross-platform desktop automation tools using **ReactJS and ElectronJS**, **reducing average customer support handling time from ~15 minutes to ~4 minutes** (73% operational improvement).
+- Championed CI/CD engineering standards across squads: automated pull request validations, strict peer reviews, and automated release governance.
 
-- Architected and scaled high-throughput backend APIs and asynchronous worker pipelines for proprietary license and transaction management, handling **millions of daily requests** within strict sub-100ms SLA constraints.
-- Engineered resilient, fault-tolerant microservices for high-availability enterprise financial workflows, implementing automated canary testing and zero-downtime rollback pipelines using Jenkins and CloudBees.
-- Developed an internal operational desktop application with React and Electron, streamlining back-office operational UX and reducing transaction exception handling latency by 35%.
-- Established organizational engineering standards across distributed squads, including rigorous code review guidelines, contract testing, and trunk-based deployment pipelines.
-
-### **GFT Technologies** | *Backend Developer (L1 / L2 / Intern)*
-
+### **GFT Technologies** | *Backend Developer (L1 / L2 / Trainee)*
 **March 2022 – August 2024 | Barueri, São Paulo, Brazil**
 
-- Engineered backend services in C# ASP.NET Core and Java 11 for top-tier financial institutions, implementing instant payment solutions (**Pix**), payment gateways (**PayIn/Payout**), and **Matera core banking integrations**.
-- Contributed to 2 core microservices for a high-volume insurance platform using Java 11, Spring Boot, JPA, and the Specification Pattern, ensuring high cohesion and strict domain isolation.
-- Authored production-ready WebAPI boilerplate templates built on Clean Architecture, DDD, and SOLID principles, establishing standard coding conventions adopted across 4 client delivery squads.
-- Tuned mission-critical SQL Server queries, stored procedures, and execution plans under heavy production concurrency, decreasing latency on financial reporting jobs by 45%.
-- Achieved **3x Microsoft Azure Certifications** (AZ-900, DP-900, SC-900) while driving test-driven development (TDD) and static analysis compliance via SonarQube.
+- **Back End Developer L2 – Embedded at Western Union** *(April 2024 – August 2024)*:
+  - Developed backend microservices in C# ASP.NET Core for **Pix and Pix QR Code** rails, managing seamless core banking integrations via **Matera**.
+  - Engineered concurrency safeguards preventing duplicate processing and race conditions using distributed locks and reliable queue consumers.
+
+- **Backend Developer L1 – Embedded at Western Union** *(May 2023 – April 2024)*:
+  - Developed C# ASP.NET Core backend services connecting external partner APIs and relational databases within a strictly regulated financial domain.
+  - Implemented high-throughput payment settlement workflows for **PayIn and Payout** handling bursts up to **~40 req/s**.
+  - **Optimized mission-critical SQL Server queries, execution plans, and indexes under production load, reducing query latency from ~8 seconds to ~600 ms** (>92% performance improvement).
+  - Maintained code quality and reliability through automated unit testing, SonarQube static analysis, and Bitbucket peer code reviews.
+  - Earned **3x Microsoft Azure Certifications** (AZ-900, DP-900, SC-900) during this period.
+
+- **Internship Trainee** *(March 2022 – April 2023)*:
+  - Contributed to 2 Java 11 microservices for an enterprise insurance platform (quoting and policy issuance), leveraging JPA and the **Specification Pattern** to compose dynamic eligibility queries without code duplication.
+  - Created standardized WebAPI boilerplate templates implementing **DDD, SOLID, and Clean Architecture**, adopted as baseline architecture across 3 development squads.
+  - Successfully completed a 3-month intensive bootcamp covering TDD, REST APIs, and microservices architecture with a production-grade team capstone project.
 
 ---
 
 ## Education
 
-- **FIAP** — *Postgraduate Degree (Especialização) in Software Architecture* | 2026 – 2027
+- **FIAP** — *Postgraduate Degree (Specialization) in Software Architecture* | 2026 – 2027
 - **Estácio** — *Bachelor of Science (B.S.) in Information Systems* | 2020 – 2024
 - **EF English Live** — *Advanced English Immersion Program* | 2022 – 2023
 
 ---
 
-## Certifications & Continuous Learning
+## Certifications
 
 - **Microsoft Certified: Azure Fundamentals (AZ-900)** — Microsoft
 - **Microsoft Certified: Azure Data Fundamentals (DP-900)** — Microsoft
@@ -81,6 +87,5 @@ Senior Software Engineer with 6+ years of experience architecting, building, and
 ---
 
 ## Languages
-
 - **Portuguese:** Native
 - **English:** Professional Working Proficiency

@@ -2,7 +2,7 @@
 
 # Marcos W. Ferreira
 
-### Senior Backend Engineer
+### Backend Software Engineer | Distributed Systems & Regulated Payments
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
 [![Resume (EN)](https://img.shields.io/badge/Resume-English-007ACC?style=flat-square&logo=googledocs&logoColor=white)](curriculum/resume.md)
@@ -13,7 +13,8 @@
 
 <br/>
 
-*Specialized in High-Concurrency Financial Systems, Event-Driven Architecture & Scalable Microservices (.NET • Java • Cloud • Rust)*
+*Specialized in High-Concurrency Financial Systems, Core Banking Integrations & Scalable Cloud Microservices*  
+*(C# .NET • Java Spring Boot • Microsoft Azure • Resilient Architecture)*
 
 </div>
 
@@ -21,12 +22,13 @@
 
 ## 👨‍💻 About Me
 
-Senior Software Engineer with **6+ years of experience** designing, building, and operating high-impact backend systems in mission-critical, large-scale environments.
+Backend Software Engineer with **4+ years of experience** specializing in regulated financial architectures, high-concurrency payment platforms, and mission-critical enterprise systems.
 
-- 🏦 **Fintech & Banking Core Systems:** Extensive background in payment flows (**PayIn / Payout**), **Pix**, core banking integrations (**Matera**), dynamic QR Code generation/processing, and low-latency financial settlement.
-- ⚡ **Scale & Resilience:** Embedded at **Western Union**, architecting high-throughput APIs and asynchronous worker pipelines handling **millions of daily transactions** with rigorous latency and fault-tolerance constraints.
-- 🏛️ **Architecture & Clean Code:** Strong advocate and practitioner of **Domain-Driven Design (DDD)**, **CQRS**, **Event-Driven Architecture**, Hexagonal / Clean Architecture, and **Test-Driven Development (TDD)**.
-- 🎓 **Continuous Learning:** Postgraduate studies in **Software Architecture at FIAP**, Bachelor's in **Information Systems**, and triple-certified by **Microsoft in Azure** (AZ-900, DP-900, SC-900).
+- 🏦 **Fintech & Regulated Platforms:** Extensive expertise in payment rails (**Pix, Pix QR Code, PayIn, and Payout**) and direct core banking integration (**Matera**). Proven track record preventing race conditions and ensuring transactional integrity using **idempotency keys, distributed locks, message queues, and exponential backoff retry strategies**.
+- ⚡ **Scale & Real-World Impact:** Built and maintained backend microservices and asynchronous workers at **Western Union** supporting thousands of daily transactions and traffic peaks of **~40 req/s**. Currently building mission-critical public sector systems for the **Rio de Janeiro State Court of Justice (TJRJ)** via Basis.
+- 🚀 **Performance Optimization:** Proven experience tuning production database workloads, including optimizing critical SQL queries from **~8s down to ~600ms (>92% improvement)**, automating deployment rollbacks from **~30m to ~5m**, and building internal operational tooling (React + Electron) that reduced customer service handling time from **~15m to ~4m**.
+- 🧪 **Testing & Quality Gates:** Quality-first mindset with multi-layered testing (**xUnit, JUnit, Jasmine/Karma, Cypress, and Robot Framework**) sustaining **~80% code coverage** and enforcing strict automated SonarQube quality gates.
+- 🎓 **Education & Certifications:** Postgraduate studies in **Software Architecture at FIAP**, Bachelor's in **Information Systems**, and **3x Microsoft Azure Certified** (AZ-900, DP-900, SC-900).
 
 ---
 
@@ -36,12 +38,13 @@ Senior Software Engineer with **6+ years of experience** designing, building, an
 
 | Domain | Technologies & Practices |
 | :--- | :--- |
-| **Backend & Languages** | `C# (.NET Core / .NET 8+)`, `Java 17/21 (Spring Boot 3)`, `Rust`, `Go`, `TypeScript`, `SQL` |
-| **Architecture & Patterns** | Distributed Systems, Microservices, DDD (Domain-Driven Design), CQRS, Event-Driven Architecture, Clean Architecture, Hexagonal, TDD, Design Patterns |
-| **Databases & Messaging** | SQL Server, PostgreSQL, OracleDB, MongoDB, Redis, SQL Server Service Broker, Apache Kafka / RabbitMQ concepts |
-| **Cloud & DevOps** | Microsoft Azure, Docker, CI/CD (Azure DevOps, Jenkins, CloudBees, GitHub Actions), SonarQube, Linux |
-| **Testing & Quality** | xUnit, JUnit, Moq, Testcontainers, SonarQube (Quality Gates), Integration & Load Testing |
-| **Frontend & Tools** | Angular, React, Electron, Git, JetBrains Rider, VS Code, Linux Shell |
+| **Backend & Languages** | `C# (.NET Core / .NET 8+)`, `Java 11/17/21 (Spring Boot 3)`, `TypeScript`, `JavaScript`, `SQL`, `Rust`, `Go` |
+| **Fintech & Payments** | Pix, Pix QR Code (Dynamic & Static), PayIn/Payout, Matera Core Banking, Idempotency Keys, Distributed Locks, Message Queues, Retry Policies |
+| **Architecture & Patterns** | Distributed Systems, Microservices, Domain-Driven Design (DDD), CQRS, Clean / Hexagonal Architecture, SOLID, Design Patterns |
+| **Databases & Caching** | OracleDB, Microsoft SQL Server, PostgreSQL, MongoDB, Redis |
+| **Cloud & DevOps** | Microsoft Azure, Docker, Azure DevOps, Jenkins, CloudBees, SonarQube, Bitbucket, Linux |
+| **Testing & Quality** | xUnit, JUnit, Jasmine/Karma, Cypress, Selenium, Robot Framework, TDD, Automated Quality Gates |
+| **Frontend & Tools** | Angular, React, Electron, Git, JetBrains Rider, VS Code |
 
 </div>
 
@@ -51,16 +54,18 @@ Senior Software Engineer with **6+ years of experience** designing, building, an
 
 - 🎓 **Postgraduate Degree in Software Architecture** — FIAP *(2026 - 2027)*
 - 🎓 **Bachelor's Degree in Information Systems** — Estácio *(2020 - 2024)*
+- 🗣️ **English Immersion Program** — EF English Live *(2022 - 2023)*
 - ☁️ **Microsoft Certified: Azure Fundamentals (AZ-900)**
 - 📊 **Microsoft Certified: Azure Data Fundamentals (DP-900)**
 - 🔒 **Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)**
 - 🌊 **Cloud Lakehouse Data Management Foundation Series**
+- 🤖 **Claude Code in Action**
 
 ---
 
 <div align="center">
 
-💬 *Always open to discussing software architecture, distributed systems, high-concurrency challenges, and senior engineering opportunities.*
+💬 *Always open to discussing software architecture, distributed systems, high-concurrency challenges, and backend engineering opportunities.*
 
 [![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
 
