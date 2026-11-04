@@ -7,7 +7,7 @@
 # Marcos W. Ferreira
 **Backend Software Engineer | Distributed Systems & Regulated Payments**  
 Tremembé, São Paulo, Brazil • marcosfw7@outlook.com • +55 (12) 99183-6842  
-[LinkedIn](https://www.linkedin.com/in/marcoswferreira) • [GitHub](https://github.com/marcoswferreira) • [Portfolio](https://www.self.so/marcos-wferreira)
+[LinkedIn](https://www.linkedin.com/in/marcoswferreira) • [GitHub](https://github.com/marcoswferreira)
 
 ---
 
