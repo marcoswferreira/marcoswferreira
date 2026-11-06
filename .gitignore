@@ -1,8 +1,0 @@
-# Dependencies
-node_modules/
-# Ignore arbitrary PDFs, but keep track of generated resume PDFs
-*.Zone.Identifier
-*.pdf
-!curriculum/resume.pdf
-!curriculum/curriculo_pt.pdf
-*.agent
