@@ -6,7 +6,9 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
 [![Resume (EN)](https://img.shields.io/badge/Resume-English-007ACC?style=flat-square&logo=googledocs&logoColor=white)](curriculum/resume.md)
+[![Resume (PDF)](https://img.shields.io/badge/Resume-PDF-E53935?style=flat-square&logo=adobeacrobatreader&logoColor=white)](curriculum/resume.pdf)
 [![Currículo (PT)](https://img.shields.io/badge/Curr%C3%ADculo-Portugu%C3%AAs-2ea44f?style=flat-square&logo=googledocs&logoColor=white)](curriculum/curriculo_pt.md)
+[![Currículo (PDF)](https://img.shields.io/badge/Curr%C3%ADculo-PDF-E53935?style=flat-square&logo=adobeacrobatreader&logoColor=white)](curriculum/curriculo_pt.pdf)
 [![Email](https://img.shields.io/badge/Email-marcosfw7%40outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:marcosfw7@outlook.com)
 [![Location](https://img.shields.io/badge/Location-São%20Paulo%2C%20Brazil-555555?style=flat-square&logo=google-maps&logoColor=white)](https://goo.gl/maps)
 [![3x Azure Certified](https://img.shields.io/badge/Azure%20Certified-AZ--900%20%7C%20DP--900%20%7C%20SC--900-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)

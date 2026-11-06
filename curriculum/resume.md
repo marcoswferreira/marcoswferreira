@@ -1,17 +1,13 @@
-<div align="center">
-
-[ 🇺🇸 English Version ](resume.md) • [ 🇧🇷 Versão em Português ](curriculo_pt.md)
-
-</div>
-
 # Marcos W. Ferreira
+
 **Backend Software Engineer | Distributed Systems & Regulated Payments**  
-Tremembé, São Paulo, Brazil • marcosfw7@outlook.com • +55 (12) 99183-6842  
+Tremembé, São Paulo, Brazil • <marcosfw7@outlook.com> • +55 (12) 99183-6842  
 [LinkedIn](https://www.linkedin.com/in/marcoswferreira) • [GitHub](https://github.com/marcoswferreira)
 
 ---
 
 ## Professional Summary
+
 Backend Software Engineer with 4+ years of professional experience architecting, building, and operating distributed systems and high-throughput financial platforms in mission-critical, regulated environments. Deep expertise in enterprise payment systems (Pix, dynamic Pix QR Codes, PayIn/Payout engines, and core banking integrations with Matera), ensuring transactional consistency under concurrency through idempotency, distributed locks, asynchronous queues, and retry mechanisms. Demonstrated track record across global enterprises and public institutions (Western Union, GFT Technologies, and the Rio de Janeiro State Court of Justice via Basis), slashing database query latency from 8s to 600ms and operational turnaround times by up to 73%. Specialized in C# (.NET Core), Java (Spring Boot), Azure cloud-native architectures, and test automation (TDD, integration, and E2E testing).
 
 ---
@@ -31,7 +27,9 @@ Backend Software Engineer with 4+ years of professional experience architecting,
 ## Professional Experience
 
 ### **Basis Tecnologia da Informação S.A.** | *Software Engineer II*
+
 **April 2025 – Present | Rio de Janeiro, Brazil (Remote)**
+
 - Engineer and maintain mission-critical enterprise applications for the **Rio de Janeiro State Court of Justice (TJRJ)**, including Justice of the Peace governance and internship program management systems using Angular, C# ASP.NET Core, and Oracle.
 - Translate statutory and institutional judicial decrees into validated business domain rules, automated workflows, eligibility checks, and tenure duration validations.
 - Build high-reliability management and operational reports for the Human Resources division, ensuring regulatory compliance and audit readiness for monthly accountability submissions.
@@ -39,7 +37,9 @@ Backend Software Engineer with 4+ years of professional experience architecting,
 - Ensure full compliance with strict contractual quality requirements and architectural documentation via continuous static analysis with **SonarQube** and automated CI/CD quality gates.
 
 ### **Western Union** | *Software Engineer II*
+
 **September 2024 – April 2025 | São Paulo, Brazil**
+
 - Engineered and maintained high-throughput C#/.NET backend microservices for core financial rails: **Pix, Pix QR Code, PayIn, and Payout**, including direct core banking integration with **Matera**, handling thousands of daily transactions and peak traffic of **~40 req/s**.
 - Enforced strict transactional consistency and zero-loss guarantees under heavy concurrency through **idempotency keys, distributed locks, message queuing, and exponential backoff retry strategies**.
 - Built low-latency RESTful APIs and asynchronous background workers for reliable cross-system synchronization with external third parties, processing thousands of daily events.
@@ -48,6 +48,7 @@ Backend Software Engineer with 4+ years of professional experience architecting,
 - Championed CI/CD engineering standards across squads: automated pull request validations, strict peer reviews, and automated release governance.
 
 ### **GFT Technologies** | *Backend Developer (L1 / L2 / Trainee)*
+
 **March 2022 – August 2024 | Barueri, São Paulo, Brazil**
 
 - **Back End Developer L2 – Embedded at Western Union** *(April 2024 – August 2024)*:
@@ -87,5 +88,6 @@ Backend Software Engineer with 4+ years of professional experience architecting,
 ---
 
 ## Languages
+
 - **Portuguese:** Native
 - **English:** Professional Working Proficiency

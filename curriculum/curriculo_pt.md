@@ -1,17 +1,13 @@
-<div align="center">
-
-[ 🇧🇷 Versão em Português ](curriculo_pt.md) • [ 🇺🇸 English Version ](resume.md)
-
-</div>
-
 # Marcos W. Ferreira
+
 **Engenheiro de Software Backend | Sistemas Distribuídos & Pagamentos**  
-Tremembé, São Paulo, Brasil • marcosfw7@outlook.com • +55 (12) 99183-6842  
+Tremembé, São Paulo, Brasil • <marcosfw7@outlook.com> • +55 (12) 99183-6842  
 [LinkedIn](https://www.linkedin.com/in/marcoswferreira) • [GitHub](https://github.com/marcoswferreira)
 
 ---
 
 ## Resumo Profissional
+
 Engenheiro de Software Backend com mais de 4 anos de experiência no desenvolvimento de sistemas distribuídos e plataformas financeiras reguladas, com forte foco em consistência transacional, confiabilidade, concorrência e qualidade de entrega. Ampla atuação em ecossistemas de pagamentos corporativos (Pix, Pix QR Code, motores de PayIn/Payout e integração com core banking Matera), garantindo integridade sob concorrência por meio de idempotência, distributed locks, mensageria e políticas de retry. Experiência comprovada em empresas multinacionais e órgãos públicos (Western Union, GFT Technologies e Tribunal de Justiça do Rio de Janeiro via Basis), reduzindo latências críticas de banco de dados de 8s para 600ms e tempos operacionais em até 73%. Especialista em C# (.NET Core), Java (Spring Boot), arquiteturas cloud-native em Azure e práticas avançadas de testes (TDD, testes de integração e E2E).
 
 ---
@@ -31,7 +27,9 @@ Engenheiro de Software Backend com mais de 4 anos de experiência no desenvolvim
 ## Experiência Profissional
 
 ### **Basis Tecnologia da Informação S.A.** | *Software Engineer II*
+
 **Abril de 2025 – Presente | Rio de Janeiro, Brasil (Remoto)**
+
 - Atuação no desenvolvimento de sistemas corporativos de missão crítica para o **Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ)**, abrangendo módulos como Gestão de Estagiários e Gestão de Juízes de Paz com Angular, C# ASP.NET Core e Oracle.
 - Implementação e tradução de requisitos normativos complexos do tribunal em regras de negócio, validações institucionais e fluxos operacionais automatizados (elegibilidade, prazos e controle de ciclo de vida funcional).
 - Desenvolvimento de relatórios gerenciais e operacionais de alta confiabilidade para a área de Gestão de Pessoas, assegurando conformidade para a prestação de contas mensal do órgão.
@@ -39,7 +37,9 @@ Engenheiro de Software Backend com mais de 4 anos de experiência no desenvolvim
 - Cumprimento rigoroso de requisitos contratuais de engenharia de software e documentação, aplicando análise estática contínua via **SonarQube** e quality gates automatizados no pipeline.
 
 ### **Western Union** | *Software Engineer II*
+
 **Setembro de 2024 – Abril de 2025 | São Paulo, Brasil**
+
 - Desenvolvimento e sustentação de serviços backend em C#/.NET para fluxos de processamento financeiro: **Pix, Pix QR Code, PayIn e Payout**, incluindo integração direta com o core bancário **Matera**, operando com milhares de transações diárias e **picos de ~40 req/s**.
 - Garantia de consistência estrita de dados sob alta concorrência aplicando **idempotência transacional, distributed locks, processamento assíncrono em filas e estratégias de retry** com backoff exponencial.
 - Construção de APIs de baixa latência e workers assíncronos para sincronização e integração resiliente com serviços de terceiros, processando milhares de requisições por dia.
@@ -48,6 +48,7 @@ Engenheiro de Software Backend com mais de 4 anos de experiência no desenvolvim
 - Padronização de práticas de CI/CD para squads de engenharia: fluxos de pull requests, code reviews rigorosos e automação de esteiras de release.
 
 ### **GFT Technologies** | *Backend Developer (L1 / L2 / Trainee)*
+
 **Março de 2022 – Agosto de 2024 | Barueri, São Paulo, Brasil**
 
 - **Back End Developer L2 – Alocado na Western Union** *(Abril 2024 – Agosto 2024)*:
@@ -87,5 +88,6 @@ Engenheiro de Software Backend com mais de 4 anos de experiência no desenvolvim
 ---
 
 ## Idiomas
+
 - **Português:** Nativo
 - **Inglês:** Avançado / Profissional (Professional Working Proficiency)
