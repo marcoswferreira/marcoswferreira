@@ -1,7 +1,7 @@
 <!-- PROFILE_HEADER:START -->
 <div align="center">
   <h1>Marcos W. Ferreira</h1>
-  <h3>Backend Software Engineer | Distributed Systems & Regulated Payments</h3>
+  <h3>Backend Software Engineer | Distributed Systems in Regulated Environments</h3>
 
   <p>
     <a href="https://www.linkedin.com/in/marcoswferreira"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
