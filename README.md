@@ -1,74 +1,37 @@
+<!-- PROFILE_HEADER:START -->
 <div align="center">
+  <h1>Marcos W. Ferreira</h1>
+  <h3>Backend Software Engineer | Distributed Systems & Regulated Payments</h3>
 
-# Marcos W. Ferreira
+  <p>
+    <a href="https://www.linkedin.com/in/marcoswferreira"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+    <a href="https://github.com/marcoswferreira/resume-updater/blob/main/curriculum/resume_en-us.md"><img src="https://img.shields.io/badge/Resume-English-007ACC?style=flat&logo=markdown&logoColor=white" alt="Resume English" /></a>
+    <a href="https://raw.githubusercontent.com/marcoswferreira/resume-updater/main/curriculum/resume_en-us.pdf"><img src="https://img.shields.io/badge/Resume-PDF-E53935?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Resume PDF" /></a>
+    <a href="https://github.com/marcoswferreira/resume-updater/blob/main/curriculum/resume_pt-br.md"><img src="https://img.shields.io/badge/Curr%C3%ADculo-Portugu%C3%AAs-2ea44f?style=flat&logo=markdown&logoColor=white" alt="Currículo Português" /></a>
+    <a href="https://raw.githubusercontent.com/marcoswferreira/resume-updater/main/curriculum/resume_pt-br.pdf"><img src="https://img.shields.io/badge/Curr%C3%ADculo-PDF-E53935?style=flat&logo=adobeacrobatreader&logoColor=white" alt="Currículo PDF" /></a>
+    <a href="mailto:marcosfw7@outlook.com"><img src="https://img.shields.io/badge/Email-marcosfw7%40outlook.com-0078D4?style=flat&logo=microsoftoutlook&logoColor=white" alt="Email" /></a>
+  </p>
 
-### Backend Software Engineer | Distributed Systems & Regulated Payments
+  <p>
+    <img src="https://img.shields.io/badge/%F0%9F%93%8D_Location-S%C3%A3o_Paulo%2C_Brazil-blue?style=flat" alt="Location" />
+    <img src="https://img.shields.io/badge/Azure_Certified-AZ--900_%7C_DP--900_%7C_SC--900-0089D6?style=flat&logo=microsoftazure&logoColor=white" alt="Azure Certified" />
+  </p>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
-[![Resume (EN)](https://img.shields.io/badge/Resume-English-007ACC?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/marcoswferreira/resume-updater/blob/main/curriculum/resume.md)
-[![Resume (PDF)](https://img.shields.io/badge/Resume-PDF-E53935?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/marcoswferreira/resume-updater/main/curriculum/resume.pdf)
-[![Currículo (PT)](https://img.shields.io/badge/Curr%C3%ADculo-Portugu%C3%AAs-2ea44f?style=flat-square&logo=googledocs&logoColor=white)](https://github.com/marcoswferreira/resume-updater/blob/main/curriculum/curriculo_pt.md)
-[![Currículo (PDF)](https://img.shields.io/badge/Curr%C3%ADculo-PDF-E53935?style=flat-square&logo=adobeacrobatreader&logoColor=white)](https://raw.githubusercontent.com/marcoswferreira/resume-updater/main/curriculum/curriculo_pt.pdf)
-[![Email](https://img.shields.io/badge/Email-marcosfw7%40outlook.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white)](mailto:marcosfw7@outlook.com)
-[![Location](https://img.shields.io/badge/Location-São%20Paulo%2C%20Brazil-555555?style=flat-square&logo=google-maps&logoColor=white)](https://goo.gl/maps)
-[![3x Azure Certified](https://img.shields.io/badge/Azure%20Certified-AZ--900%20%7C%20DP--900%20%7C%20SC--900-0078D4?style=flat-square&logo=microsoft-azure&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
-
-<br/>
-
-*Specialized in High-Concurrency Financial Systems, Core Banking Integrations & Scalable Cloud Microservices*  
-*(C# .NET • Java Spring Boot • Microsoft Azure • Resilient Architecture)*
-
+  <p><em>Specialized in High-Concurrency Financial Systems, Core Banking Integrations & Scalable Cloud Microservices<br/>
+  (C# .NET • Java Spring Boot • Microsoft Azure • Resilient Architecture)</em></p>
 </div>
+<!-- PROFILE_HEADER:END -->
 
 ---
 
-## 👨‍💻 About Me
+<!-- PROFILE_ABOUT:START -->
+## 💁 About Me
 
-Backend Software Engineer with **4+ years of experience** specializing in regulated financial architectures, high-concurrency payment platforms, and mission-critical enterprise systems.
+Backend Software Engineer with 4+ years of professional experience architecting, building, and operating distributed systems and high-throughput financial platforms in mission-critical, regulated environments. Deep expertise in enterprise payment systems (Pix, dynamic Pix QR Codes, PayIn/Payout engines, and core banking integrations with Matera), ensuring transactional consistency under concurrency through idempotency, distributed locks, event-driven queues, and retry mechanisms. Demonstrated track record across global enterprises and public institutions (Western Union, GFT Technologies, and the Rio de Janeiro State Court of Justice via Basis), slashing database query latency from 8s to 600ms and operational turnaround times by up to 73%. Specialized in C# (.NET 8+ / ASP.NET Core), Java (Spring Boot), Azure cloud-native architectures, and test automation (TDD, integration, and E2E testing).
 
-- 🏦 **Fintech & Regulated Platforms:** Extensive expertise in payment rails (**Pix, Pix QR Code, PayIn, and Payout**) and direct core banking integration (**Matera**). Proven track record preventing race conditions and ensuring transactional integrity using **idempotency keys, distributed locks, message queues, and exponential backoff retry strategies**.
-- ⚡ **Scale & Real-World Impact:** Built and maintained backend microservices and asynchronous workers at **Western Union** supporting thousands of daily transactions and traffic peaks of **~40 req/s**. Currently building mission-critical public sector systems for the **Rio de Janeiro State Court of Justice (TJRJ)** via Basis.
-- 🚀 **Performance Optimization:** Proven experience tuning production database workloads, including optimizing critical SQL queries from **~8s down to ~600ms (>92% improvement)**, automating deployment rollbacks from **~30m to ~5m**, and building internal operational tooling (React + Electron) that reduced customer service handling time from **~15m to ~4m**.
-- 🧪 **Testing & Quality Gates:** Quality-first mindset with multi-layered testing (**xUnit, JUnit, Jasmine/Karma, Cypress, and Robot Framework**) sustaining **~80% code coverage** and enforcing strict automated SonarQube quality gates.
-- 🎓 **Education & Certifications:** Postgraduate studies in **Software Architecture at FIAP**, Bachelor's in **Information Systems**, and **3x Microsoft Azure Certified** (AZ-900, DP-900, SC-900).
-
----
-
-## 🛠️ Technical Arsenal
-
-<div align="left">
-
-| Domain | Technologies & Practices |
-| :--- | :--- |
-| **Backend & Languages** | `C# (.NET Core / .NET 8+)`, `Java 11/17/21 (Spring Boot 3)`, `TypeScript`, `JavaScript`, `SQL`, `Rust`, `Go` |
-| **Fintech & Payments** | Pix, Pix QR Code (Dynamic & Static), PayIn/Payout, Matera Core Banking, Idempotency Keys, Distributed Locks, Message Queues, Retry Policies |
-| **Architecture & Patterns** | Distributed Systems, Microservices, Domain-Driven Design (DDD), CQRS, Clean / Hexagonal Architecture, SOLID, Design Patterns |
-| **Databases & Caching** | OracleDB, Microsoft SQL Server, PostgreSQL, MongoDB, Redis |
-| **Cloud & DevOps** | Microsoft Azure, Docker, Azure DevOps, Jenkins, CloudBees, SonarQube, Bitbucket, Linux |
-| **Testing & Quality** | xUnit, JUnit, Jasmine/Karma, Cypress, Selenium, Robot Framework, TDD, Automated Quality Gates |
-| **Frontend & Tools** | Angular, React, Electron, Git, JetBrains Rider, VS Code |
-
-</div>
-
----
-
-## 📜 Certifications & Education
-
-- 🎓 **Postgraduate Degree in Software Architecture** — FIAP *(2026 - 2027)*
-- 🎓 **Bachelor's Degree in Information Systems** — Estácio *(2020 - 2024)*
-- 🗣️ **English Immersion Program** — EF English Live *(2022 - 2023)*
-- ☁️ **Microsoft Certified: Azure Fundamentals (AZ-900)**
-- 📊 **Microsoft Certified: Azure Data Fundamentals (DP-900)**
-- 🔒 **Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)**
-- 🌊 **Cloud Lakehouse Data Management Foundation Series**
-- 🤖 **Claude Code in Action**
-
----
-
-<div align="center">
-
-💬 *Always open to discussing software architecture, distributed systems, high-concurrency challenges, and backend engineering opportunities.*
-
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/marcoswferreira)
-
-</div>
+- 🏛️ **Fintech & Regulated Platforms:** Extensive expertise in payment rails (Pix, Pix QR Code, PayIn, and Payout) and direct core banking integration (Matera). Proven track record preventing race conditions and ensuring transactional integrity using idempotency keys, distributed locks, message queues, and exponential backoff retry strategies.
+- ⚡ **Scale & Real-World Impact:** Built and maintained backend microservices and asynchronous workers at Western Union supporting thousands of daily transactions and traffic peaks of ~40 req/s. Currently building mission-critical public sector systems for the Rio de Janeiro State Court of Justice (TJRJ) via Basis.
+- 🚀 **Performance Optimization:** Proven experience tuning production database workloads, including optimizing critical SQL queries from ~8s down to ~600ms (>92% improvement), automating deployment rollbacks from ~30m to ~5m, and building internal operational tooling (React + Electron) that reduced customer service handling time from ~15m to ~4m.
+- 🧪 **Testing & Quality Gates:** Quality-first mindset with multi-layered testing (xUnit, JUnit, Jasmine/Karma, Cypress, and Selenium) sustaining ~80% code coverage and enforcing strict automated SonarQube quality gates.
+- 🎓 **Education & Certifications:** Postgraduate studies in Software Architecture at FIAP, Bachelor's in Information Systems, and 3x Microsoft Azure Certified (AZ-900, DP-900, SC-900).
+<!-- PROFILE_ABOUT:END -->
